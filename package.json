@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.ts"
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
